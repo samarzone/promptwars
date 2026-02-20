@@ -1,0 +1,73 @@
+[
+  {
+    "product": "TV",
+    "size": "43 inch",
+    "resolution": "4K",
+    "technology": "LED | smart",
+    "price range": "under 20000",
+    "brand": "Samsung | LG",
+    "_translation": "Brother, I want a good 43 inch 4K LED smart TV under 20000 Samsung or LG"
+  },
+  {
+    "product": "Agarbatti",
+    "scent": "Chandan",
+    "price": "50 rupaye",
+    "packaging": "20 stick box",
+    "quantity": "1000 boxes",
+    "business_type": "wholesale"
+  },
+  {
+    "product": "TV",
+    "size": "43 inch",
+    "resolution": "4K",
+    "technology": "LED | smart",
+    "price range": "less than 20000",
+    "_translation": "Need a 43 inch 4K LED smart TV for less than 20000 rupees"
+  },
+  {
+    "product": "Thermal imaging camera",
+    "brand": "FLIR",
+    "model": "E8-XT",
+    "resolution": "320x240 IR",
+    "features": "MSX enhancement",
+    "temperature_range": "-20 to 550 degree"
+  },
+  {
+    "product": "Steam rice",
+    "variety": "Sonamasoori",
+    "age": "6 months old",
+    "price": "1000 to 1100 rupees",
+    "weight": "50 kg bag",
+    "business_type": "wholesaler"
+  },
+  {
+    "product": "Bricks",
+    "type": "Kanthrai",
+    "_translation": "Are Kanthrai bricks available?"
+  },
+  {
+    "product": "Laminate paper roll",
+    "specifications": "100 gsm | silver",
+    "price": "48rs per kg",
+    "city": "Moradabad | Noida",
+    "_translation": "100 gsm silver laminate paper roll at 48rs per kg rate in areas around Moradabad or Noida"
+  },
+  {
+    "product": "Cardboard box",
+    "type": "double wall corrugated | 3 ply",
+    "dimensions": "30x20x15 cm",
+    "use_case": "fragile items",
+    "quantity": "500 pcs"
+  },
+  {
+    "product": "Half anna coin",
+    "intent": "sell",
+    "_translation": "Want to sell half anna"
+  },
+  {
+    "product": "Solar panel",
+    "capacity": "500 watt",
+    "use_case": "home",
+    "_translation": "I want a 500 watt solar panel for home"
+  }
+]
