@@ -1,0 +1,36 @@
+You will be given a multiline text containing buyers' input queries, each in a separate line. Your job is to extract all possible attributes from each query in a structured format.
+
+Output format should be an array of json objects, each of which represents collection of a single query's attributes. It should be strictly in json format.
+
+Possible attributes can be - product specifications e.g. color, size etc., brand, city, price information.
+
+Note:
+In case the query language is other than the English, an attribute "_translation" should be added in the json object.
+Identify the core product intent in "product" attribute. It should be something which matches with the user's requirement irrespective of the specifications.
+Use words/phrases in attributes which are important for a buyer in decision making
+If there are multiple attributes of the same type keep them pipe (|) separated in the value.
+
+USER INPUT:
+"bhai ek accha sa 43 inch 4K LED smart tv chahiye 20000 ke andar Samsung ya LG",
+"50 rupaye wala chandan agarbatti 20 stick box wholesale 1000 boxes",
+"20000 रुपये से कम में 43 इंच 4K LED स्मार्ट टीवी चाहिए",
+"FLIR E8-XT thermal imaging camera 320x240 IR resolution MSX enhancement -20 to 550 degree range",
+"sonamasoori steam rice 6 months old 1000 to 1100 rupees 50 kg bag wholesaler",
+"કંથરાઈ ઈટ મલશે",
+"100 gsm silver laminate paper roll 48rs per kg ke rate per moradabad or noida ke aas paas ke area me",
+"double wall corrugated cardboard box 30x20x15 cm 3 ply for fragile items 500 pcs",
+"Half anna bechana hai",
+"నాకు 500 వాట్ల సోలార్ ప్యానెల్ కావాలి ఇంటి కోసం",
+
+SAMPLE OUTPUT:
+[
+{
+"product":"TV",
+"size": "43 inch",
+"technology": "LED | smart",
+"resolution": "4K",
+"price range": "0 - 20000",
+"brand": "Samsung | LG"
+},
+...
+]
